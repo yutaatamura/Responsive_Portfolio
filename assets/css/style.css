@@ -298,7 +298,20 @@ textarea {
 @media screen and (max-width: 768px) {
     .sideBar {
         float: none;
-        width: 58%;
+        width: 90%;
         padding: 14px;
+        margin-top: 30px;
+    }
+
+    .aboutMe {
+        float: none;
+        width: 90%;
+    }
+
+    .profilePic {
+        float: left;
+        margin-right: 20px;
+        margin-left: 0;
+
     }
 }
