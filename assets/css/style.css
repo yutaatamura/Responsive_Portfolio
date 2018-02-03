@@ -335,6 +335,18 @@ textarea {
         right: 0;
         height: 40px;
         background: #ffffff;
-        border-bottom:2px solid #dddddd; 
+        border-bottom:2px solid #dddddd;
+    }
+
+    .content {
+        margin-top: 50px;
+    }
+
+    header {
+        position: relative;
+    }
+
+    body {
+        min-width: 450px;
     }
 }
