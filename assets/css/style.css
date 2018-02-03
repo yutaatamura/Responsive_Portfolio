@@ -90,8 +90,9 @@ li {
 .profilePic {
     float: left;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 255px;
+    border: 14px inset #4aaaa5;
 }
 
 .projectPic {
@@ -133,13 +134,7 @@ hr {
 }
 
 p {
-    font-size: 18px;
-    letter-spacing: 0.5px;
-}
-
-span {
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .contact {
@@ -312,6 +307,34 @@ textarea {
         float: left;
         margin-right: 20px;
         margin-left: 0;
+        margin-bottom: 0;
 
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .profilePic {
+        width: 94%;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    #logo {
+        width: 100%;
+        float: none;
+        left: 0;
+        position: static;
+    }
+
+    li {
+        width: 33%;
+        top: 10px;
+    }
+
+    ul {
+        right: 0;
+        height: 40px;
+        background: #ffffff;
+        border-bottom:2px solid #dddddd; 
     }
 }
