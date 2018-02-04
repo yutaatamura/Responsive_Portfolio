@@ -291,16 +291,25 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
     .sideBar {
         float: none;
         width: 90%;
         padding: 14px;
         margin-top: 30px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .aboutMe {
         float: none;
         width: 90%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .profilePic {
@@ -343,10 +352,26 @@ textarea {
     }
 
     header {
-        position: relative;
+        position: static;
     }
 
     body {
         min-width: 450px;
+        margin-left: 0;
     }
+
+    .aboutMe {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .sideBar {
+        width: 90%; 
+        margin-right: auto;
+        margin-left: auto;    
+    }
+
+    
+    
 }
