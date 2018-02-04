@@ -348,5 +348,14 @@ textarea {
 
     body {
         min-width: 450px;
+        margin-left: 0;
+    }
+
+    .aboutMe {
+        margin: auto;
+    }
+
+    .sideBar {
+        margin: 30px auto 0 auto;
     }
 }
