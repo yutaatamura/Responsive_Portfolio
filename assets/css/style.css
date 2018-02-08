@@ -284,7 +284,7 @@ textarea {
     }
 
     .portfolio {
-        width: 500px;
+        width: 58%;
     }
 
     .projectPic {
@@ -359,8 +359,9 @@ textarea {
     }
 
     .projects {
-        float:left;
-        width: 45%;
+        float: none;
+        width: 42%;
+        display: inline-block;
         
     }
 }
