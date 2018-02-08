@@ -241,12 +241,12 @@ footer {
 }
 
 input {
-    width: 450px;
+    width: 100%;
     margin-top: 10px;
 }
 
 textarea {
-    width: 450px;
+    width: 100%;
     height: 200px;
     margin-top:10px;
 }
@@ -281,10 +281,11 @@ textarea {
     
     .aboutMe {
         width: 58%;
+        margin-right: 15px;
     }
 
     .portfolio {
-        width: 450px;
+        width: 58%;
         margin-right: 15px;
     }
 
@@ -317,6 +318,11 @@ textarea {
         line-height: 70px;
     }
 
+    .contact {
+        width: 58%;
+        margin-right: 15px;
+    }
+
     .clearfix::after {
         content: "";
         clear: both;
@@ -333,7 +339,7 @@ textarea {
     .sideBar {
         float: none;
         width: 90%;
-        padding: 14px;
+        padding: 20px;
         margin-top: 30px;
         margin-right: auto;
         margin-left: auto;
@@ -342,6 +348,7 @@ textarea {
     .aboutMe {
         float: none;
         width: 90%;
+        padding: 20px;
         margin-right: auto;
         margin-left: auto;
     }
@@ -355,14 +362,15 @@ textarea {
 
     .portfolio {
         float:none;
-        width: 600px;
+        width: 90%;
+        padding: 20px;
         margin-right: auto;
         margin-left: auto;
     }
 
     .projects {
         float: none;
-        width: 42%;
+        width: 42.5%;
         display: inline-block;   
     }
 
@@ -370,8 +378,24 @@ textarea {
         top: 190px;
         height: 60px;
         line-height: 55px;
+        font-size: 28px;
+    }
+
+    .contact {
+        float: none;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 20px;
     }
     
+    input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -426,7 +450,7 @@ textarea {
     }
 
     .portfolio {
-        width: 500px;
+        width: 90%;
     }
 
     .projects {
@@ -437,6 +461,7 @@ textarea {
         top: 350px;
         height: 80px;
         line-height: 70px;
+        font-size: 30px;
     }
     
 }
