@@ -224,6 +224,7 @@ footer {
 
 .projectLabel {
     position: absolute;
+    float: left;
     top: 200px; 
     left: 0px;
     text-align: center;
@@ -232,6 +233,11 @@ footer {
     color: #ffffff;
     background-color:#4aaaa5; 
     line-height: 45px;   
+}
+
+.wrapper {
+    margin: auto;
+    text-align: center;
 }
 
 input {
@@ -277,6 +283,19 @@ textarea {
         width: 58%;
     }
 
+    .portfolio {
+        width: 500px;
+    }
+
+    .projectPic {
+        width: 100%;
+    }
+
+    .projects {
+        float:none;
+        margin: 20px;
+    }
+
     .sideBar {
         width: 25%;
         float: left;
@@ -287,6 +306,19 @@ textarea {
         margin-right: 25%;
         margin-left: 25%;
         width: 50%;
+    }
+
+    .projectLabel {
+        top: 365px;
+        height: 80px;
+        font-size:30px;
+        line-height: 70px;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
     }
 }
 
@@ -317,7 +349,19 @@ textarea {
         margin-right: 20px;
         margin-left: 0;
         margin-bottom: 0;
+    }
 
+    .portfolio {
+        float:none;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .projects {
+        float:left;
+        width: 45%;
+        
     }
 }
 
